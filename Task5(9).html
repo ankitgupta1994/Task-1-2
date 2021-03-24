@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Input Types</title>
+</head>
+
+<body>
+<H1>9.Write HTML input tags snippet to show default values for all Form elements </H1>
+
+<form>
+<b> a)Text</b><br>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" value="Happy"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" value="Singh">
+
+<br><br>
+<b> b) Password </b><br>
+<label for="pwd">Password:</label><br>
+<input type="password" id="pwd" name="pwd" Value="321">
+<br><br>
+
+<b> c) Radio </b><br>
+<input type="radio" id="male" name="gender" value="male" >
+<label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female" checked>
+<label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other">
+<label for="other">Other</label>
+<br><br>
+
+<b> d) Checkbox </b><br>
+<input type="checkbox" id="vehicle1" name="vehicle1" value="car1">
+<label for="vehicle1"> Aston Martin </label><br>
+<input type="checkbox" id="vehicle2" name="vehicle2" value="car2" Checked>
+<label for="vehicle2"> BMW </label><br>
+<input type="checkbox" id="vehicle3" name="vehicle3" value="car3">
+<label for="vehicle3"> Audi </label>
+<br><br>
+
+<b> e) Button </b><br>
+<input type="button" onclick="alert('Thankyou!')" value="Click Me!">
+<br><br>
+
+<b> f)Type Range </b><br>
+<label for="rate">Rating: </label>
+<input type="range" id="vol" name="vol" min="0" max="50" value ="20">
+<br><br>
+
+
+<b> g) Number </b><br>
+
+<label for="Rate">Rating: </label>
+<input type="number" id="Rate" name="quantity" min="1" max="5" value="3">
+<br><br>
+<b> h) Date </b><br>
+<label for="DOB">DOB:</label>
+<input type="date" id="DOB" name="birthday" >
+<br><br>
+
+
+<b>i) Colour</b><br>
+<label for="favcolor">Select your favorite color:</label>
+<input type="color" id="favcolor" name="favcolor" >
+<br><br>
+
+
+<input type="submit" value="Submit">
+<input type="reset">
+<br><br>
+</form>
+
+</body>
+</html>
